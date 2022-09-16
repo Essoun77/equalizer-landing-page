@@ -13,12 +13,12 @@ Users should be able to:
 
 ### MY APPROACH FOR COMPLETION
 #### Design with
-Semantic HTML5 markup
-CSS custom properties
-Flexbox
-CSS Grid
+-Semantic HTML5 markup
+-CSS custom properties
+-Flexbox
+-CSS Grid
 
 ### My workflow
-Desktop screen first
-Followed by tablet Screen and
-Mobile screen
+-Desktop screen first
+-Followed by tablet Screen and
+-Mobile screen
