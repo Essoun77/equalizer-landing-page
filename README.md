@@ -1,9 +1,9 @@
-AMALITECH GRADUATE TRAINING PROGRAM (PHASE ONE)
+#AMALITECH GRADUATE TRAINING PROGRAM (PHASE ONE)
 
-# Project name: Equalizer landing page
+## Project name: Equalizer landing page
 
 
-## The challenge
+### The challenge
 
 Users should be able to:
 
@@ -11,14 +11,14 @@ Users should be able to:
 - See hover states for interactive elements
 
 
-## MY APPROACH FOR COMPLETION
-### Design with
-# Semantic HTML5 markup
-# CSS custom properties
-# Flexbox
-# CSS Grid
+### MY APPROACH FOR COMPLETION
+#### Design with
+Semantic HTML5 markup
+CSS custom properties
+Flexbox
+CSS Grid
 
-# My workflow
-## Desktop First
-## Followed by tablet Screen and
-## Mobile screen
+### My workflow
+Desktop screen first
+Followed by tablet Screen and
+Mobile screen
