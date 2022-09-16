@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  height: auto;
+}
+
+/******************** Starting with Desktop First **************/
+/* ********************* Header Area Begins******************************** */
+
+header {
+  max-width: 75rem;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+
+.hero-container {
+  max-width: 63rem;
+}
+.hero-container h1 {
+  max-width: 85%;
+  font-size: 5rem;
+  margin-top: 10rem;
+  letter-spacing: -0.063;
+}
+
+.hero-container p {
+  max-width: 51rem;
+  font-size: 1.25rem;
+  line-height: 2.13rem;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
+
+.shaded-background-container {
+  position: relative;
+  top: -45rem;
+  left: 1rem;
+}
+
+.shaded-background-container img {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  top: -7rem;
+}
+
+.pattern-1-container {
+  display: block;
+  position: absolute;
+  top: -1rem;
+  right: 0.3rem;
+}
+
+.pattern-1-container img {
+  max-width: 19.5rem;
+}
+
+/************************** Main Area Begins ****************************/
+
+main {
+  max-width: 75rem;
+  display: grid;
+  grid-template-columns: 25rem 25rem 25rem;
+  margin-bottom: 11rem;
+  margin-left: 10rem;
+}
+
+.pattern-2-container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  max-width: 60rem;
+  grid-column: 1/4;
+  grid-row: 1/4;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.illustration-app-container {
+  max-width: 20rem;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  position: relative;
+  top: -7rem;
+  left: 6rem;
+}
+
+.illustration-app-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/********************************* Orange Container **************************/
+.main-premium-container {
+  max-width: 25rem;
+  background-color: #fa7453;
+  grid-column: 1/4;
+  grid-row: 4/5;
+  position: absolute;
+  top: 60.5rem;
+  left: 41.5rem;
+  border-radius: 10px;
+}
+
+.premium-container {
+  max-width: 19rem;
+  color: #fcfaf9;
+  margin: 4rem 2rem;
+}
+
+.premium-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.premium-container p {
+  line-height: 1.5rem;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+/************************************* Buttons starting ***********************/
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.apple-button {
+  background-color: black;
+  color: #fcfaf9;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.apple-button:hover {
+  background-color: #66e2dc;
+  cursor: pointer;
+  border: 2px solid #66e2dc;
+}
+
+.andriod-button {
+  background-color: #fcfaf9;
+  color: black;
+  padding: 00.5rem 1rem;
+  border: 2px solid #fcfaf9;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.andriod-button:hover {
+  background-color: #ffb964;
+  cursor: pointer;
+  border: 2px solid #ffb964;
+}
+
+/******************************* Footer Area Begins ***************************/
+
+footer {
+  max-width: 65rem;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+footer a img {
+  margin-bottom: 1rem;
+  margin-left: 8rem;
+}
+
+footer p {
+  max-width: 25rem;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.social-media-icons {
+  max-width: 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.social-media-icons:hover {
+  cursor: pointer;
+}
+
+.social-media-icons img {
+  max-width: 100%;
+  height: 1.25rem;
+  margin-left: 1rem;
+}
+
+/****************************** Desktop ending *****************************/
+
+/**************************** Mobile Screen Begin *************************/
+
+@media only screen and (max-width: 600px) {
+  header {
+    max-width: 24rem;
+    margin-left: 1.5rem;
+  }
+
+  .hero-container {
+    max-width: 20.4rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+
+  .hero-container h1 {
+    max-width: 20rem;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .hero-container p {
+    max-width: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .pattern-1-container {
+    display: none;
+  }
+
+  main {
+    max-width: 24rem;
+    display: grid;
+    grid-template-columns: 4rem 16rem 4rem;
+    grid-template-rows: auto;
+    margin-left: 0rem;
+    margin-bottom: 8rem;
+  }
+
+  /********************* Pattern in black background ******************/
+  .pattern-2-container {
+    max-width: 24rem;
+  }
+
+  /************************* Mobile app ************************/
+  .illustration-app-container {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    left: 1.5rem;
+  }
+
+  .illustration-app-container img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  /************************* Orange Background container ***************/
+  .main-premium-container {
+    max-width: 24rem;
+    position: relative;
+    top: -3rem;
+    left: 0px;
+  }
+
+  .premium-container {
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+
+  .premium-container h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .premium-container p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  /************************ Footer Area *********************/
+  footer {
+    display: block;
+    max-width: 20rem;
+    margin-top: -8rem;
+    margin-left: 1.5rem;
+  }
+
+  footer a img {
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+  }
+
+  footer p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .social-media-icons {
+    max-width: 6rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    margin-left: -0.8rem;
+  }
+
+  .social-media-icons img {
+    height: 1.2rem;
+    width: 6rem;
+  }
+}
+/***************************** Mobile screen ending *******************/
+
+/***************************** Tablet screen begins ***************************/
+@media (min-width: 600px) and (max-width: 1024px) {
+  header {
+    max-width: 50rem;
+    margin-left: 2.5rem;
+  }
+
+  .hero-container h1 {
+    font-size: 3rem;
+    max-width: 20rem;
+    margin-top: 3rem;
+  }
+
+  .hero-container p {
+    font-size: 1rem;
+    max-width: 29rem;
+  }
+
+  .shaded-background-container {
+    position: relative;
+    top: -39rem;
+    left: -7rem;
+  }
+
+  .shaded-background-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .pattern-1-container {
+    display: block;
+    position: absolute;
+    top: -2rem;
+    right: -2rem;
+  }
+
+  .pattern-1-container img {
+    max-width: 16rem;
+  }
+
+  /************************* Main area begins **********************/
+
+  main {
+    max-width: 50rem;
+    display: grid;
+    grid-template-columns: 16rem 16rem 16rem;
+    margin-bottom: 9rem;
+    margin-left: 2rem;
+  }
+
+  /************************** pattern in black background *****************/
+
+  .pattern-2-container {
+    max-width: 42rem;
+    grid-column: 1/4;
+  }
+
+  /************************** The mobile app Image**************************/
+
+  .illustration-app-container {
+    max-width: 20rem;
+    grid-column: 1/2;
+    position: relative;
+    left: 3rem;
+  }
+
+  .illustration-app-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /*************************** Orange container *************************/
+
+  .main-premium-container {
+    max-width: 25rem;
+    grid-column: 2/4;
+    position: absolute;
+    top: 51rem;
+    left: 16rem;
+  }
+
+  .premium-container {
+    max-width: 19rem;
+    margin: 2rem 2rem;
+  }
+
+  .premium-eq-container h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .premium-eq-container p {
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+  }
+
+  footer {
+    max-width: 43rem;
+    display: block;
+    margin-left: 2rem;
+  }
+
+  footer a img {
+    margin-left: 0rem;
+  }
+
+  .social-media-icons {
+    float: right;
+    margin-top: -7rem;
+    margin-right: 2.5rem;
+  }
+
+  /*************************** Tablet ending *************************/
+}
